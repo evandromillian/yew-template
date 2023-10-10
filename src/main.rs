@@ -12,7 +12,6 @@ fn app() -> Html {
         </BrowserRouter>
     }
 }
-
 fn main() {
     yew::Renderer::<App>::new().render();
 }
